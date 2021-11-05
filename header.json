@@ -1,0 +1,138 @@
+{
+    "Basic": [
+        {
+            "Description": "Given name",
+            "Rule": "'(given|first)\s+name'"
+        },
+        {
+            "Description": "Surname",
+            "Rule": "'(surname|.*name)'"
+        },
+        {
+            "Description": "Gender",
+            "Rule": "'gender'"
+        },
+        {
+            "Description": "Marriage",
+            "Rule": "'marriage'"
+        },
+        {
+            "Description": "Religion",
+            "Rule": "'(religion|belief|faith)'"
+        },
+        {
+            "Description": "Siblings",
+            "Rule": "'siblings'"
+        },
+        {
+            "Description": "Spouse",
+            "Rule": "'(spouse|mate|partner)'"
+        },
+        {
+            "Description": "Relatives",
+            "Rule": "'(grand.*|uncle|aunt|.*-in-law|step.*|half.*|adotp.*)'"
+        }
+    ],
+    "Contact": [
+        {
+            "Description": "Accurate Location",
+            "Rule": "'(GPGGA|GPGLL|GPVTG|GPRMC|GPGSA|GPGSV|lat.*|lon.*)'"
+        },
+        {
+            "Description": "Communication",
+            "Rule": "'(cellphone|phone|mobile|tel|fax)'"
+        },
+        {
+            "Description": "Postcode",
+            "Rule": "'(zip|postcode|postal)'"
+        },
+        {
+            "Description": "E-mail address",
+            "Rule": "'(e-mail|email)'"
+        },
+        {
+            "Description": "Home or office address",
+            "Rule": "'(.*address|addr)'"
+        },
+        {
+            "Description": "IP address",
+            "Rule": "'(ip|ipv.*)'"
+        },
+        {
+            "Description": "Mac address",
+            "Rule": "'mac'"
+        }
+    ],
+    "Birth": [
+        {
+            "Description": "Date of birth",
+            "Rule": "'date of birth'"
+        },
+        {
+            "Description": "Place of birth",
+            "Rule": "'place of birth'"
+        },
+        {
+            "Description": "Nationality",
+            "Rule": "'(country|nationality)'"
+        },
+        {
+            "Description": "Race",
+            "Rule": "'race'"
+        },
+        {
+            "Description": "Parents",
+            "Rule": "'(father|monther)'"
+        }
+    ],
+    "Social": [
+        {
+            "Description": "Job",
+            "Rule": "'(employer|company|org)'"
+        },
+        {
+            "Description": "Friend",
+            "Rule": "'friend'"
+        }
+    ],
+    "Internet": [
+        {
+            "Description": "Internet social networking account",
+            "Rule": "'account'"
+        },
+        {
+            "Description": "Password or PIN",
+            "Rule": "'(password|pin|otp)'"
+        }
+    ],
+    "Finance": [
+        {
+            "Description": "Finance account",
+            "Rule": "'(bank account|insurance number|credit card|investment|stock|bond)'"
+        },
+        {
+            "Description": "Income",
+            "Rule":"'(income|salary|wage|debt|loan)'"
+        }
+    ],
+    "Goverment": [
+        {
+            "Description": "Goverment ID",
+            "Rule": "'(identification number|passport|driver license|pr card|birth certificate|ssn|social security number)'"
+        }
+    ],
+    "Medical": [
+        {
+            "Description": "Medical records",
+            "Rule": "'medical record'"
+        },
+        {
+            "Description": "Prescription records",
+            "Rule": "'precscription'"
+        },
+        {
+            "Description": "Health status",
+            "Rule": "'health'"
+        }
+    ]
+}
